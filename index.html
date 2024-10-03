@@ -23,15 +23,15 @@
           <div class="inputs">
             <div class="input">
               <label for="config-width">Ancho</label>
-              <input type="number" id="config-width" placeholder="Milimetros" value="2400" min="0">
+              <input type="number" id="config-width" placeholder="Milimetros" value="1220" min="0">
             </div>
             <div class="input">
               <label for="config-height">Alto</label>
-              <input type="number" id="config-height" placeholder="Milimetros" value="1800" min="0">
+              <input type="number" id="config-height" placeholder="Milimetros" value="1840" min="0">
             </div>
             <div class="input">
               <label for="config-price">Precio del Acrilico</label>
-              <input type="number" id="config-price" placeholder="CLP" value="70000" min="0">
+              <input type="number" id="config-price" placeholder="CLP" value="44000" min="0">
             </div>
             <div class="input">
               <label for="config-hinge">Precio de Bisagras</label>
@@ -41,10 +41,11 @@
               <label for="config-labor">Mano de Obra</label>
               <input type="number" id="config-labor" placeholder="[0-100]%" value="30" min="0">
             </div>
-            <div class="input">
-              <label for="config-thick">Grosor</label>
-              <input type="number" id="config-thick" placeholder="Milimetros" value="3" min="0">
-            </div>
+            <legend><h2>Grosor</h2></legend>
+          <select name="thick" id="thick">
+            <option value="3" selected="selected" >3MM</option>
+            <option value="4">4MM</option>
+          </select>
           </div>
         </fieldset>
       </section>
