@@ -9,10 +9,10 @@ const config = {
 }
 
 const configInputs = {
+  thick: document.querySelector('#thick'),
   width: document.querySelector('#config-width'),
   height: document.querySelector('#config-height'),
   price: document.querySelector('#config-price'),
-  thick: document.querySelector('#config-thick'),
   hinge: document.querySelector('#config-hinge'),
   labor: document.querySelector('#config-labor'),
   theme: document.querySelector('#config-theme')
