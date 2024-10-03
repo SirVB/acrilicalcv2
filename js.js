@@ -47,6 +47,14 @@ propertiesInputs.product.addEventListener('change', (e) => {
   }
 })
 
+configInputs.thick.addEventListener('change', (e) => {
+  if (e.target.value === '4') {
+    configInputs.price.value = 59000
+  } else {
+
+  }
+})
+
 configInputs.theme.addEventListener('click', (e) => {
   const doc = document.documentElement
   e.target.innerHTML = ''
