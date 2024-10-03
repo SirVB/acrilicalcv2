@@ -1,8 +1,9 @@
 const config = {
-  ACRILICO_ANCHO:   2400,
-  ACRILICO_ALTO:    1800,
-  ACRILICO_PRECIO:  70000,
+  ACRILICO_ANCHO:   1220,
+  ACRILICO_ALTO:    1840,
+  ACRILICO_PRECIO:  44000,
   ACRILICO_MANOBRA: 30,
+  ACRILICO_GROSOR: 3,
   BISAGRAS_PRECIO:  750,
   THEME:           'light'
 }
@@ -11,6 +12,7 @@ const configInputs = {
   width: document.querySelector('#config-width'),
   height: document.querySelector('#config-height'),
   price: document.querySelector('#config-price'),
+  thick: document.querySelector('#config-thick'),
   hinge: document.querySelector('#config-hinge'),
   labor: document.querySelector('#config-labor'),
   theme: document.querySelector('#config-theme')
