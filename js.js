@@ -53,7 +53,7 @@ configInputs.thick.addEventListener('change', (e) => {
     configInputs.price.height = 1830
   } else {
     configInputs.price.value = 44000
-    configInputs.price.height = 1820
+    configInputs.price.height = 1840
   }
 })
 
