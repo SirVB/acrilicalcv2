@@ -50,10 +50,10 @@ propertiesInputs.product.addEventListener('change', (e) => {
 configInputs.thick.addEventListener('change', (e) => {
   if (e.target.value === '4') {
     configInputs.price.value = 59000
-    configInputs.price.height = 1830
+    configInputs.height.value = 1830
   } else {
     configInputs.price.value = 44000
-    configInputs.price.height = 1840
+    configInputs.height.value = 1840
   }
 })
 
